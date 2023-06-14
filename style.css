@@ -1,0 +1,27 @@
+body.vh-100 {
+    background-image: linear-gradient(darkgrey 1%, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    justify-content: center;
+}
+
+#gif-area {
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: flex-start
+}
+
+#gif-area div{
+    margin: 5px;
+    padding: -1px;
+    display: flex;
+    width: 24%;
+    background-color: none;
+    align-items: center;
+    justify-content: center;
+}
